@@ -1,0 +1,137 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.ride-container {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1d3557, #457b9d),
+                radial-gradient(circle at top left, #1d3557, transparent);
+    background-blend-mode: overlay;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.share-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 50%; 
+    flex-wrap: nowrap;
+}
+.input-group input {
+    padding: 10px;
+    width: 40%; 
+    border: 2px solid #323232;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background: white;
+    color: black;
+}
+.share-ride-btn {
+    background: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.share-ride-btn:hover {
+    background: #8e8e8e;
+    transform: scale(0.98);
+}
+.message {
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+.rides-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+.ride-item{
+    background: white;
+    color: black;
+    padding: 15px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: 0.3s;
+}
+.ride-item:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.book-ride-btn {
+    background: #1d3557;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.book-ride-btn:hover {
+    background: #457b9d;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 35%;
+}
+.search-container select,
+.search-container input {
+    padding: 10px;
+    border: 2px solid #323232;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+    background: white;
+    color: black;
+}
+.search-btn {
+    width:30%;
+    background: #1d3557;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.search-btn:hover {
+    background: #457b9d;
+    transform: scale(0.98);
+}

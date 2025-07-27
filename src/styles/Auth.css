@@ -1,0 +1,69 @@
+.login-page, .signup-page{
+    background: linear-gradient(135deg,#1d3557,#457b9d),  
+    radial-gradient(circle at top left, #1d3557, transparent);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-page .logo,
+.signup-page .logo {
+    width: 300px;
+    position: relative;
+}
+
+.auth-container, .login-container, .signup-container {
+    margin-top: -30px;
+    width: 400px;
+    padding: 20px;
+    background: #f1faee;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+input{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #9c9c9c;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(137, 137, 137);
+}
+button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    background: #1d3557;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow:5px 5px 5px rgb(137, 137, 137);
+}
+button:hover {
+    background: #002239;
+    transform: scale(0.98);
+}
+.subtitle {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+p a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
+}
+p a:hover {
+    text-decoration:solid;
+    font-weight: bold;
+    color: black;
+}
