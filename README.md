@@ -1,6 +1,6 @@
 ## HereVGo – A Vehicle Pooling Web App for Day Scholars
 
-I have used React.js, JavaScript, HTML, and CSS for the frontend, and Firebase for the backend and authentication. 
+I used React.js, JavaScript, HTML, and CSS for the frontend, and Firebase for the backend and authentication as part of my web development course project.
 
 Users can either share a ride or find a ride. The ride details are available under the "Current Accepted Rides" and "Current Found Rides" sections, respectively. While the idea is valuable, potential issues such as trust and user verification have not yet been addressed. Additionally, features like payment integration, in-app chat, live location tracking, and a reward system, when implemented, will significantly enhance the functionality and value of the project. 
 
