@@ -12,3 +12,5 @@ B needs to travel, so he chooses to find a ride.
 B selects A’s ride, which then appears on his "Current Found Rides" page.  
 A can view the booking on his "Current Booked Rides" page.  
 An OTP exchange ensures verification.  
+
+https://herevgo.web.app
