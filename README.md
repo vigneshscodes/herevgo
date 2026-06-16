@@ -2,10 +2,6 @@
 
 A ride-sharing platform developed for day scholars to enable affordable and sustainable daily commutes. The application allows users to either share rides or find available rides through a simple and responsive web interface.
 
-## Live Demo
-
-https://herevgo.web.app
-
 ## Features
 
 * User authentication using Firebase
@@ -55,6 +51,10 @@ Consider two users: **A** and **B**.
 | Ride Details Page                      |
 | -------------------------------------- |
 | ![](screenshots/herevgo-foundrides.png) |
+
+## Live Demo
+
+https://herevgo.web.app
 
 ## Key Highlights
 
