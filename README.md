@@ -38,8 +38,6 @@ Consider two users: **A** and **B**.
 
 ## Screenshots
 
-## Screenshots
-
 | Login Page                      | Home Page                        |
 | ------------------------------- | -------------------------------- |
 | ![](screenshots/herevgo-login.png) | ![](screenshots/herevgo-home1.png) |
